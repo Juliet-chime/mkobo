@@ -99,3 +99,46 @@ export const spendingItem = [
     bg:"#FDCFE7"
   },
 ];
+
+export const spendingItemData = [
+  {
+    image: netflix,
+    name: "Paid for",
+    item: "Netflix",
+    currency: "₦",
+    amount: "-3,000.00",
+    bg:"rgba(214, 216, 211, 0.3)"
+  },
+  {
+    image: greenArrow,
+    name: "Received From",
+    item: "Ayoola Adeniji",
+    currency: "₦",
+    amount: "+3,000.00",
+    bg:"#D9FFEF"
+  },
+  {
+    image: redArrow,
+    name: "Sent  Money with Mtag",
+    item: "Car Repair",
+    currency: "₦",
+    amount: "-3,000.00",
+    bg:"#FDCFE7"
+  },
+  {
+    image: netflix,
+    name: "Paid for",
+    item: "Netflix",
+    currency: "₦",
+    amount: "-3,000.00",
+    bg:"rgba(214, 216, 211, 0.3)"
+  },
+  {
+    image: greenArrow,
+    name: "Received From",
+    item: "Ayoola Adeniji",
+    currency: "₦",
+    amount: "+3,000.00",
+    bg:"#D9FFEF"
+  },
+];

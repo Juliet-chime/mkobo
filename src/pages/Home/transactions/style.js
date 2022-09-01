@@ -43,3 +43,24 @@ height: 58px;
 border: none;
 }
 `
+export const TotalWrapperContainer = styled.div`
+display: flex;
+align-items: center;
+justify-content: space-between;
+`
+export const TotalItem = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  .itemSquare{
+  width: 9px;
+  height: 9px;
+  background: ${props => props.bg};
+  }
+  h1{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: ${props => props.color};
+}
+`

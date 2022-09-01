@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import HorizontalTab from "../../../component/horizontalTab";
-import { RangeStyle, SpendingTab } from "./style";
+import { RangeStyle, SpendingTab, TotalItem, TotalWrapperContainer } from "./style";
 import { spendingData, spendingOptions } from "./utils";
 import timeDate from "../../../component/assest/images/pictures/time-date.svg";
 import rangeLine from "../../../component/assest/images/pictures/rangeline.svg";
@@ -32,6 +32,17 @@ const SpendingDetails = () => {
             <RangeStyle>
                 <img src={rangeLine} alt="" />
             </RangeStyle>
+            <TotalWrapperContainer>
+                <TotalItem bg="#4181F9" color="#4181F9">
+                    <div className="itemSquare"></div>
+                    <h1>Total In (₦): +42,000</h1>
+                </TotalItem>
+
+                <TotalItem bg="#94B9FF" color="#94B9FF">
+                    <h1>Total In (₦): +42,000</h1>
+                    <div className="itemSquare"></div>
+                </TotalItem>
+            </TotalWrapperContainer>
             <div>{spendingData[spending]}</div>
         </div>
     );

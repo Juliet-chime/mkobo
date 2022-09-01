@@ -40,6 +40,7 @@ color: #263238
 }
 .item-amount{
     display: flex;
+    gap: 5px;
     h5{
         font-weight: 400;
 font-size: 14px;

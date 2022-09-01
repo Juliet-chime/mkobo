@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../../../component/heading/Heading'
 import TransactionItems from '../../../component/transactionItem/TransactionItems'
-import { spendingItem } from '../../../data'
+import { spendingItem, spendingItemData } from '../../../data'
 import { TransactionItemContianer, ViewTransaction } from './style'
 
 const AllTransaction = () => {
@@ -17,7 +17,7 @@ const AllTransaction = () => {
             <Heading color="rgba(38, 50, 56, 0.5)" size="12px" name="Sept 18" />
             <TransactionItemContianer>
                 <div>
-                    {spendingItem.map((item, index) => (<TransactionItems key={index} item={item} />))}
+                    {spendingItemData.map((item, index) => (<TransactionItems key={index} item={item} />))}
                 </div>
             </TransactionItemContianer>
 
